@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Chess Merida';
+    src: url('MERIFONT.TTF');
+}
+.background{
+    -fx-background-color: rgb(86, 116, 86);
+}
+.whiteField{
+    -fx-font-family: "Chess Merida";
+    -fx-background-color: rgb(253, 243, 212);
+    -fx-font-size: 24;
+}
+.blackField{
+    -fx-font-family: "Chess Merida";
+    -fx-background-color: rgb(189, 120, 88);
+    -fx-font-size: 24;
+}
+.filedLabel{
+    -fx-width: fit-content;
+    -fx-height: fit-content;
+    -fx-background-color: rgb(114, 63, 47);
+    -fx-text-align: center;
+}
+.toolBar{
+    -fx-background-color: rgb(114, 63, 47);
+}
+.toolstuf{
+    -fx-background-color: rgb(253, 243, 212);;
+}
