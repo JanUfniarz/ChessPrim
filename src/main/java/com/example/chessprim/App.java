@@ -18,8 +18,11 @@ public class App extends Application {
         // Inicjuje okno
         Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         stage.setTitle("Chess");
+        /*
+        ! Works only with absolute path. I don't know why
         stage.getIcons().add(new Image("C:\\Users\\januf\\OneDrive\\Pulpit\\IDEA\\" +
                 "ChessPrim\\src\\main\\resources\\com\\example\\chessprim\\icon.png"));
+         */
         stage.setResizable(false);
 
         stage.setScene(scene);
